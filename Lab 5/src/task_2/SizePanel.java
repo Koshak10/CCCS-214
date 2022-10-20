@@ -40,9 +40,10 @@ public class SizePanel extends JPanel {
         int sizeCost = SIZE_25;
 
         int index = comboBox.getSelectedIndex();
-        switch (index) {
-            case 1 -> sizeCost = SIZE_27;
-            case 2 -> sizeCost = SIZE_32;
+        if (index == 1) {
+            sizeCost = SIZE_27;
+        } else if (index == 2) {
+            sizeCost = SIZE_32;
         }
 
         return sizeCost;
