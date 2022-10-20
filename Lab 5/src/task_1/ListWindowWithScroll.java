@@ -3,9 +3,6 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import java.awt.*;
 
-/**
- * This class demonstrates the List Component.
- */
 public class ListWindowWithScroll extends JFrame {
 
     private JPanel seasonPanel; // To hold components
@@ -117,7 +114,7 @@ public class ListWindowWithScroll extends JFrame {
 
     /**
      * The main method creates an instance of the
-     * ListWindow class which causes it to display
+     * ListWindowWithScroll class which causes it to display
      * its window.
      */
     public static void main(String[] args) {
