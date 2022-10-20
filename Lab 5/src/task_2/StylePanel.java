@@ -40,10 +40,10 @@ public class StylePanel extends JPanel {
         int styleCost = REGULAR_SHADES;
 
         int index = comboBox.getSelectedIndex();
-        switch (index) {
-            case 1 -> styleCost = FOLDING_SHADES;
-            case 2 -> styleCost = ROMAN_SHADES;
-        }
+        if (index == 1)
+            styleCost = FOLDING_SHADES;
+        else if (index == 2)
+            styleCost = ROMAN_SHADES;
 
         return styleCost;
     }
