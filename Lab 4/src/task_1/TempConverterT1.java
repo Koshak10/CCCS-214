@@ -106,7 +106,6 @@ public class TempConverterT1 extends JFrame {
         panel4 = new JPanel();
 
         // Create a button with the caption "Calculate".
-        // To reference a button
         JButton calcButton = new JButton("Calculate");
 
         // Add the button to the panel.
