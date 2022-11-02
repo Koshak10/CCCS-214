@@ -89,9 +89,6 @@ public class TempConverterT2 extends JFrame {
         // Create a label to display a message.
         JLabel label = new JLabel("Fahrenheit");
 
-        // Create a text field for the Fahrenheit temp.
-        fahrenheit = new JTextField(10);
-
         // Add the label and text field to the panel.
         panel3.add(label);
     }
