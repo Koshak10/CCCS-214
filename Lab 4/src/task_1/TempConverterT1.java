@@ -3,13 +3,14 @@ import java.awt.*;
 
 public class TempConverterT1 extends JFrame {
 
-    private JPanel panel1;          // To reference panel one
-    private JPanel panel2;          // To reference panel two
-    private JPanel panel3;          // To reference panel three
-    private JPanel panel4;          // To reference panel four
-    private JButton calcButton;     // To reference a button
-    private JTextField celsius;     // Celsius temperature
-    private JTextField fahrenheit;  // Fahrenheit temperature
+    private JPanel panel1;                  // To reference panel one
+    private JPanel panel2;                  // To reference panel two
+    private JPanel panel3;                  // To reference panel three
+    private JPanel panel4;                  // To reference panel four
+    private JRadioButton celsiusButton;     // To convert to Celsius
+    private JRadioButton fahrenheitButton;  // To convert to Fahrenheit
+    private JTextField celsius;             // Celsius temperature
+    private JTextField fahrenheit;          // Fahrenheit temperature
 
     /**
      * Constructor
@@ -84,19 +85,19 @@ public class TempConverterT1 extends JFrame {
         panel3 = new JPanel();
 
         // Create two radio buttons.
-        JRadioButton radio1 = new JRadioButton("Celsius");
-        JRadioButton radio2 = new JRadioButton("Fahrenheit");
+        celsiusButton = new JRadioButton("Celsius");
+        fahrenheitButton = new JRadioButton("Fahrenheit");
 
         // Create a ButtonGroup object.
         ButtonGroup group = new ButtonGroup();
 
         // Add the radio buttons to the ButtonGroup object.
-        group.add(radio1);
-        group.add(radio2);
+        group.add(celsiusButton);
+        group.add(fahrenheitButton);
 
         // Add the radio buttons to the JPanel referenced by panel.
-        panel3.add(radio1);
-        panel3.add(radio2);
+        panel3.add(celsiusButton);
+        panel3.add(fahrenheitButton);
     }
 
     private void buildPanel4() {
@@ -105,7 +106,8 @@ public class TempConverterT1 extends JFrame {
         panel4 = new JPanel();
 
         // Create a button with the caption "Calculate".
-        calcButton = new JButton("Calculate");
+        // To reference a button
+        JButton calcButton = new JButton("Calculate");
 
         // Add the button to the panel.
         panel4.add(calcButton);
