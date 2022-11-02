@@ -53,13 +53,13 @@ public class TempConverterT1 extends JFrame {
         panel1 = new JPanel();
 
         // Create a label to display a message.
-        JLabel label1 = new JLabel("Celsius ");
+        JLabel label = new JLabel("Celsius ");
 
         // Create a text field for the Celsius temp.
         celsius = new JTextField(10);
 
         // Add the label and text field to the panel.
-        panel1.add(label1);
+        panel1.add(label);
         panel1.add(celsius);
     }
 
@@ -69,13 +69,13 @@ public class TempConverterT1 extends JFrame {
         panel2 = new JPanel();
 
         // Create a label to display a message.
-        JLabel label2 = new JLabel("Fahrenheit ");
+        JLabel label = new JLabel("Fahrenheit ");
 
         // Create a text field for the Fahrenheit temp.
         fahrenheit = new JTextField(10);
 
         // Add the label and text field to the panel.
-        panel2.add(label2);
+        panel2.add(label);
         panel2.add(fahrenheit);
     }
 
