@@ -28,7 +28,7 @@ public class PrinterWindow extends JFrame {
         JButton button3 = new JButton("Setup...");
         JButton button4 = new JButton("Help");
 
-        // Create three check boxes.
+        // Create four check boxes.
         JCheckBox check1 = new JCheckBox("Image");
         JCheckBox check2 = new JCheckBox("Text");
         JCheckBox check3 = new JCheckBox("Code");
