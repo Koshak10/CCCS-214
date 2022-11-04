@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class PrinterWindow extends JFrame {
 
-    final int WINDOW_WIDTH = 470;   // Window width in pixels
+    final int WINDOW_WIDTH = 475;   // Window width in pixels
     final int WINDOW_HEIGHT = 220;  // Window height in pixels
 
     /**
